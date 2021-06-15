@@ -66,7 +66,7 @@ Malta	5
 Spain	5
 */
 
---5.Here are the first few rows of the world table:
+--5. Here are the first few rows of the world table:
 /*
 name			region		area		population	gdp
 Afghanistan	South Asia	652225	26000000	
