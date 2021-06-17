@@ -26,7 +26,7 @@ WHERE area BETWEEN 200000 AND 250000;
 /*
    name         population
    Bahrain		 1234571
-   Swaziland	 1220000
+   Swaziland    1220000
    Timor-Leste  1066409
 */
 SELECT name, population
@@ -66,7 +66,7 @@ WHERE length(name) = 5 AND continent = 'Europe';
    Afghanistan  South Asia   652225     26000000	
    Albania      Europe       28728      3200000      6656000000
    Algeria      Middle East  2400000    32900000     75012000000
-   Andorra      Europe		  468        64000	
+   Andorra      Europe       468        64000	
    ...
 */
 --Pick the result you would obtain from this code:
