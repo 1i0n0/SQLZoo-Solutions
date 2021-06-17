@@ -24,10 +24,10 @@ WHERE area BETWEEN 200000 AND 250000;
 
 --1. Select the code which produces this table.
 /*
-   name			   population
+   name         population
    Bahrain		 1234571
    Swaziland	 1220000
-   Timor-Leste 1066409
+   Timor-Leste  1066409
 */
 SELECT name, population
 FROM world
@@ -54,19 +54,19 @@ FROM world
 WHERE length(name) = 5 AND continent = 'Europe';
 
 /*
-   name	  length(name)
-   Italy	5
-   Malta	5
-   Spain	5
+   name   length(name)
+   Italy  5
+   Malta  5
+   Spain  5
 */
 
 --5. Here are the first few rows of the world table:
 /*
-   name			    region		  area		 population	  gdp
-   Afghanistan	South Asia	652225	 26000000	
-   Albania		  Europe		  28728		 3200000		  6656000000
-   Algeria		  Middle East	2400000	 32900000		  75012000000
-   Andorra		  Europe		  468		   64000	
+   name         region       area       population   gdp
+   Afghanistan  South Asia   652225     26000000	
+   Albania      Europe       28728      3200000      6656000000
+   Algeria      Middle East  2400000    32900000     75012000000
+   Andorra      Europe		  468        64000	
    ...
 */
 --Pick the result you would obtain from this code:
@@ -75,7 +75,7 @@ FROM world
 WHERE population = 64000;
 
 /*
-Andorra	936
+   Andorra	936
 */
 
 --6. Select the code that would show the countries with an area larger than 50000 
