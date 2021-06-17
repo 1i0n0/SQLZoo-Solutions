@@ -59,7 +59,7 @@ SELECT name, population, area
 FROM world
 WHERE area > 3000000 XOR population > 250000000;
 
--- Another solution without using XOR
+-- Another solution without using XOR.
 SELECT name, population, area
 FROM world
 WHERE NOT (area > 3000000 AND population > 250000000)
@@ -114,7 +114,6 @@ SELECT name, capital
 FROM world
 WHERE MID(name, 1, 1) = MID(capital, 1, 1)
   AND name <> capital;
-
 
 --13. Find the country that has all the vowels and no spaces in its name.
 --    You can use the phrase name NOT LIKE '%a%' to exclude characters from your results.
