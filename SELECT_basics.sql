@@ -25,7 +25,7 @@ WHERE area BETWEEN 200000 AND 250000;
 --1. Select the code which produces this table.
 /*
    name         population
-   Bahrain		 1234571
+   Bahrain      1234571
    Swaziland    1220000
    Timor-Leste  1066409
 */
