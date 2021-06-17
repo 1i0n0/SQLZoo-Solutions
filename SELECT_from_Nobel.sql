@@ -176,9 +176,9 @@ WHERE yr ='1960'
 GROUP BY subject;
 
 /*
-   Chemistry	1
-   Literature	1
-   Medicine	   2
-   Peace	      1
-   Physics	   1
+   Chemistry   1
+   Literature  1
+   Medicine    2
+   Peace       1
+   Physics     1
 */
