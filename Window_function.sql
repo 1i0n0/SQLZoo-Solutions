@@ -53,8 +53,7 @@ FROM (SELECT constituency,
              RANK() OVER (PARTITION BY constituency ORDER BY votes DESC) AS posn
       FROM ge
       WHERE constituency BETWEEN 'S14000021' AND 'S14000026'
-        AND yr  = 2017
-      ORDER BY posn, constituency) AS new_ge
+        AND yr  = 2017) AS new_ge
 WHERE posn = 1;
 
 --6. Show how many seats for each party in Scotland in 2017.
@@ -66,7 +65,6 @@ FROM (SELECT constituency,
              RANK() OVER (PARTITION BY constituency ORDER BY votes DESC) AS posn
       FROM ge
       WHERE constituency LIKE 'S%'
-        AND yr = 2017
-      ORDER BY party) AS new_ge
+        AND yr = 2017) AS new_ge
 WHERE new_ge.posn = 1
 GROUP BY party;
